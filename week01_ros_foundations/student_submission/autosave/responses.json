@@ -1,0 +1,74 @@
+{
+  "checked_evidence_ids": {},
+  "completed_missions": [],
+  "lab_id": "week01_ros_foundations",
+  "responses": {
+    "part_1.activity": {
+      "hardware": {
+        "changed": true,
+        "normal": true
+      },
+      "sensor": {
+        "changed": true,
+        "normal": true
+      },
+      "timing": {
+        "changed": true,
+        "normal": true
+      }
+    },
+    "part_2.activity": {
+      "behavior": {
+        "changed": true,
+        "normal": true
+      },
+      "deliberative": {
+        "changed": true,
+        "normal": true
+      },
+      "hybrid": {
+        "changed": true,
+        "normal": true
+      },
+      "reactive": {
+        "changed": true,
+        "normal": true
+      },
+      "safety": {
+        "changed": true,
+        "normal": true
+      }
+    },
+    "part_3.activity": {
+      "communication": {
+        "service": true,
+        "topic": true
+      },
+      "failure": {
+        "healthy": true,
+        "sensor": true,
+        "type": true,
+        "visualization": true
+      },
+      "inspection": {
+        "broken": true,
+        "echo": true,
+        "node_info": true,
+        "nodes": true,
+        "services": true,
+        "topic_info": true,
+        "topics": true
+      },
+      "middleware": {
+        "multiple": true,
+        "single": true
+      }
+    }
+  },
+  "schema_version": 1,
+  "student": {
+    "email": "BRIAN.MAI74@login.cuny.edu",
+    "name": "Brian Mai"
+  },
+  "updated_at": "2026-09-08T17:46:57.559687+00:00"
+}
