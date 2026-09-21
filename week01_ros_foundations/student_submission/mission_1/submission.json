@@ -2,12 +2,12 @@
   "schema_version": 1,
   "lab_id": "week01_ros_foundations",
   "mission_id": "mission_1",
-  "saved_at": "2026-09-09T06:18:35.451234+00:00",
+  "saved_at": "2026-09-10T03:36:58.437023+00:00",
   "evidence": {
-    "evidence_id": "b81d0b9a7da75645",
+    "evidence_id": "5513495d2688ce2c",
     "graph": {
       "schema_version": 2,
-      "captured_at": "2026-09-09T06:18:35.003947+00:00",
+      "captured_at": "2026-09-10T03:36:57.783212+00:00",
       "nodes": [
         {
           "name": "/course_cmd_vel_guard"
@@ -25,7 +25,7 @@
           "name": "/rviz2"
         },
         {
-          "name": "/transform_listener_impl_aaaaeb3cf8d0"
+          "name": "/transform_listener_impl_aaaadd0b1920"
         }
       ],
       "topics": [
@@ -133,7 +133,7 @@
             "/robot_state_publisher",
             "/ros_gz_bridge",
             "/rviz2",
-            "/transform_listener_impl_aaaaeb3cf8d0"
+            "/transform_listener_impl_aaaadd0b1920"
           ]
         },
         {
@@ -157,7 +157,7 @@
             "/robot_state_publisher",
             "/ros_gz_bridge",
             "/rviz2",
-            "/transform_listener_impl_aaaaeb3cf8d0"
+            "/transform_listener_impl_aaaadd0b1920"
           ],
           "subscribers": []
         },
@@ -194,7 +194,7 @@
             "/ros_gz_bridge"
           ],
           "subscribers": [
-            "/transform_listener_impl_aaaaeb3cf8d0"
+            "/transform_listener_impl_aaaadd0b1920"
           ]
         },
         {
@@ -206,7 +206,7 @@
             "/robot_state_publisher"
           ],
           "subscribers": [
-            "/transform_listener_impl_aaaaeb3cf8d0"
+            "/transform_listener_impl_aaaadd0b1920"
           ]
         }
       ],
@@ -428,7 +428,7 @@
           ]
         },
         {
-          "name": "/transform_listener_impl_aaaaeb3cf8d0/get_type_description",
+          "name": "/transform_listener_impl_aaaadd0b1920/get_type_description",
           "types": [
             "type_description_interfaces/srv/GetTypeDescription"
           ]
@@ -441,29 +441,26 @@
           "angle_max": 6.28000020980835,
           "angle_increment": 0.01749303564429283,
           "sample_count": 360,
-          "finite_count": 326,
-          "minimum_finite_range": 0.5041057467460632
+          "finite_count": 327,
+          "minimum_finite_range": 0.5055088400840759
         },
         "/odom": {
           "frame_id": "odom",
           "child_frame_id": "base_footprint",
           "position": {
-            "x": 9.600784798128334e-09,
-            "y": -2.2140332463248806e-21
+            "x": 9.600826343041586e-09,
+            "y": -2.2140674838636187e-21
           },
           "orientation": {
             "x": 0.0,
             "y": 0.0,
-            "z": -2.3026058750030313e-13,
+            "z": -2.5815082458345856e-13,
             "w": 1.0
           },
-          "linear_x": -3.0936554909483235e-20,
-          "angular_z": 9.367820437163038e-19
+          "linear_x": 1.5796665221433995e-13,
+          "angular_z": -2.090723906703973e-13
         },
-        "/student_cmd_vel": {
-          "linear_x": 0.0,
-          "angular_z": 0.0
-        }
+        "/student_cmd_vel": null
       }
     },
     "stable_graph": {
@@ -473,7 +470,7 @@
         "/robot_state_publisher",
         "/ros_gz_bridge",
         "/rviz2",
-        "/transform_listener_impl_aaaaeb3cf8d0"
+        "/transform_listener_impl_aaaadd0b1920"
       ],
       "topics": [
         [
@@ -580,7 +577,7 @@
             "/robot_state_publisher",
             "/ros_gz_bridge",
             "/rviz2",
-            "/transform_listener_impl_aaaaeb3cf8d0"
+            "/transform_listener_impl_aaaadd0b1920"
           ]
         ],
         [
@@ -604,7 +601,7 @@
             "/robot_state_publisher",
             "/ros_gz_bridge",
             "/rviz2",
-            "/transform_listener_impl_aaaaeb3cf8d0"
+            "/transform_listener_impl_aaaadd0b1920"
           ],
           []
         ],
@@ -641,7 +638,7 @@
             "/ros_gz_bridge"
           ],
           [
-            "/transform_listener_impl_aaaaeb3cf8d0"
+            "/transform_listener_impl_aaaadd0b1920"
           ]
         ],
         [
@@ -653,7 +650,7 @@
             "/robot_state_publisher"
           ],
           [
-            "/transform_listener_impl_aaaaeb3cf8d0"
+            "/transform_listener_impl_aaaadd0b1920"
           ]
         ]
       ]
