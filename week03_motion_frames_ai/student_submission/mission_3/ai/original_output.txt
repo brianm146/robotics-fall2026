@@ -1,0 +1,85 @@
+Assuming the existing `Segment` constructor is `Segment(linear_x, angular_z, duration)`, this implementation uses the minimum allowed forward speed, which keeps the required angular rate below the `0.80 rad/s` limit.
+
+```
+def build_pattern(pattern_name: str) -> list[Segment]:
+    if pattern_name == "alternating_arcs":
+        import math
+
+        radius = 0.30          # m
+        linear_x = 0.22        # m/s
+        turn_angle = math.pi / 4  # 45 degrees
+
+        # v = r * omega => omega = v / r
+        angular_z = linear_x / radius  # 0.7333... rad/s
+
+        # Arc length = r * theta; duration = arc length / speed.
+        duration = (radius * turn_angle) / linear_x
+
+        # Four 45-degree arcs: +45, -45, +45, -45 degrees.
+        return [
+            Segment(linear_x, +angular_z, duration),
+            Segment(linear_x, -angular_z, duration),
+            Segment(linear_x, +angular_z, duration),
+            Segment(linear_x, -angular_z, duration),
+        ]
+
+    raise ValueError(f"Unknown pattern name: {pattern_name}")
+```
+
+ ### Assumptions
+
+ - `Segment` accepts `(linear_x, angular_z, duration)` in that order.
+- A positive `angular_z` represents the required initial positive 45° turn.
+- Each segment represents exactly 45° of heading change:
+  - `+45°`
+  - `-45°`
+  - `+45°`
+  - `-45°`
+- The radius is `0.30 m`, so `ω = v/r = 0.22/0.30 ≈ 0.7333 rad/s`.
+- Each duration is approximately `1.071 s`, since the arc length is `0.30π/4 ≈ 0.236 m`.
+- Total duration is approximately `4.283 s`, well below the 60-second limit.
+- The alternating signed turns cancel to zero net heading change, so the robot finishes facing its initial direction.
+- I would leave the course wrapper and its final zero command unchanged.
+
+ ### Tests I would add/run
+
+```
+import math
+import pytest
+
+def test_alternating_arcs():
+    segments = build_pattern("alternating_arcs")
+
+    assert len(segments) == 4
+
+    for segment in segments:
+        assert segment.duration > 0
+        assert segment.duration <= 30.0
+        assert 0.0 < segment.linear_x <= 0.22
+        assert abs(segment.angular_z) <= 0.80
+
+    assert [s.angular_z > 0 for s in segments] == [
+        True, False, True, False
+    ]
+
+    total_duration = sum(s.duration for s in segments)
+    assert total_duration <= 60.0
+
+    # Each arc turns 45 degrees.
+    for segment in segments:
+        assert math.isclose(
+            abs(segment.angular_z) * segment.duration,
+            math.pi / 4,
+            rel_tol=1e-9,
+        )
+
+    # Net heading change is zero.
+    net_heading = sum(s.angular_z * s.duration for s in segments)
+    assert math.isclose(net_heading, 0.0, abs_tol=1e-9)
+
+def test_unknown_pattern():
+    with pytest.raises(ValueError):
+        build_pattern("not_a_pattern")
+```
+
+ The chosen `0.22 m/s` is intentional: with a `0.30 m` radius it produces `0.733 rad/s`, satisfying the angular-speed limit while exactly meeting the stated lower/upper linear-speed bound. The four short arcs also give substantial margin under the per-segment and total-duration requirements.

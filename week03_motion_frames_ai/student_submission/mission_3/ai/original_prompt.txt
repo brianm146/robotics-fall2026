@@ -1,0 +1,9 @@
+This is a ROS 2 Jazzy Python package. Implement only build_pattern(pattern_name: str) -> list[Segment] for 'alternating_arcs' in the existing pattern.py.
+The course-provided pattern_node.py calls this function, publishes the returned segments repeatedly through /student_cmd_vel, and sends the final zero command.
+Use the existing Segment class with linear_x (m/s), angular_z (rad/s), and duration (s).
+Return the ordered segments for the assigned specification and raise ValueError for an unknown pattern name.
+Stay within 0.22 m/s, 0.80 rad/s, 30 seconds per segment, and 60 seconds total.
+Do not replace the wrapper or course checks. Explain assumptions and propose tests.
+
+This is the specification:
+The intended sequence of the robot is to perform alternating arcs with four forward arcs, starting with positive 45 degrees and alternating the sign for each turn while keeping the turning at 45 degrees with each arc having a radius of 0.30 meters. The speeds should be bounded between 0.22 m/s and 0.80 m/s. The robot should stop after performing the four arcs and facing the initial direction. Some measurable success criteria is ensuring that only positive durations are used, the robot moves at most 30 seconds per each segment and that it takes at most 60 seconds total for all the segments, and that this sequence is done in a 2 m by 2 m area.
