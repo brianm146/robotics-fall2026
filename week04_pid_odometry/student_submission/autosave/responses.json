@@ -1,0 +1,14 @@
+{
+  "schema_version": 2,
+  "saved_at": "2026-10-01T12:01:13",
+  "identity": {
+    "name": "",
+    "student_id": "",
+    "section": ""
+  },
+  "checkins": {
+    "background_compare": "The engineer chooses the gains Kp, Ki, and Kd, which determine"
+  },
+  "explanations": {},
+  "activity_gifs": {}
+}
