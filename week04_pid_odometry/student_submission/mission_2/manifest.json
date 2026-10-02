@@ -1,0 +1,26 @@
+{
+  "schema_version": 2,
+  "mission_id": "mission_2",
+  "files": [
+    {
+      "path": "submission.json",
+      "size_bytes": 1837,
+      "crc32": "60b916db"
+    },
+    {
+      "path": "odometry_test_summary.csv",
+      "size_bytes": 147,
+      "crc32": "e1f73a4b"
+    },
+    {
+      "path": "activity_gifs/latest_odometry_test.gif",
+      "size_bytes": 615368,
+      "crc32": "5b3a679d"
+    },
+    {
+      "path": "explanation.md",
+      "size_bytes": 1000,
+      "crc32": "97dba4ac"
+    }
+  ]
+}

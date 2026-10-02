@@ -1,0 +1,38 @@
+{
+  "schema_version": 2,
+  "created_at": "2026-10-01T13:47:59",
+  "mission_id": "mission_2",
+  "student": {
+    "name": "Brian Mai",
+    "student_id": "BRIAN.MAI74@login.cuny.edu",
+    "section": "01"
+  },
+  "explanations": {
+    "prediction": "The estimated forward distance will be incorrect overshooting the actual forward distance that the robot traveled while the sideways distance will be incorrect undershooting the actual sideways distance that the robot traveled.",
+    "calibration_analysis": "I predicted that if the forward pod scale is too large, then the robot will overshoot the actual distance and that if the strafe pod scale is too small, then the robot will undershoot the actual distance which was correct. The forward scale changed how much distance the robot was actually moving vertically/forwards and the sideways scale changed how much distance the robot was actually moving horizontally/sideways. The sideways pod is needed because it is needed so that the robot can actually strafe and move sideways. Some drift can remain after calibration due to wind or wheel slippage which could cause the robot to differ in the actual distance."
+  },
+  "params": {
+    "forwardInPerTick": 0.0497,
+    "strafeInPerTick": 0.0497
+  },
+  "metrics": {
+    "max_error_in": 0.5250056948262787,
+    "final_error_in": 0.38588843154470825,
+    "passed": true
+  },
+  "result": {
+    "passed": true,
+    "maxError": 0.5250056948262787,
+    "finalError": 0.38588843154470825,
+    "params": {
+      "forwardInPerTick": 0.0497,
+      "strafeInPerTick": 0.0497
+    }
+  },
+  "csv_files": {
+    "odometry_test_summary.csv": "max_error_in,final_error_in,forward_in_per_tick,strafe_in_per_tick,passed_server_check\r\n0.5250056948262787,0.38588843154470825,0.0497,0.0497,True\r\n"
+  },
+  "activity_gifs": [
+    "latest_odometry_test.gif"
+  ]
+}
