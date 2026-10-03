@@ -8,7 +8,7 @@
 
 ### m3_prediction
 
-I predict that increasing forward speed could increase tracking error and lower pedestrian clearance, risking hitting the pedestrian. I predict that too little derivative control would also increase tracking error and lower pedestrian clearance by failing to slow down quickly enough which can result in hitting and harming the pedestrian.
+I predict that increasing forward speed could increase the tracking error and lower the pedestrian clearance, risking hitting the pedestrian. I predict that too little derivative control would also increase the tracking error and lower the pedestrian clearance by failing to slow down quick enough, potentially hitting and harming the pedestrian.
 
 ### m3_technical
 
@@ -17,6 +17,10 @@ I predicted that both increasing forward speed and too little derivative control
 ### m3_human
 
 The most consequential failure for a pedestrian would be the robot going to fast, hitting and harming the person. A clearance and speed trade-off would be the robot having a low clearance making it easier to hit a pedestrian, but having a very high speed robot. The engineer is responsible for verifying that decision before deployment through testing in real-world scenarios to ensure that the robot maintains a good speed while also preventing any dangerous speeds that could endanger the pedestrian.
+
+### final_reflection
+
+This activity made me realize that I'm very interested in robotics and other engineering related work. This activity made me feel more motivated to do other similar kinds of work in the future involving the design of robots. The value that I see in connecting technical work with human, ethical, and societal considerations is providing people with helpful robots that help them complete tasks more efficiently while also maintaining trust and safety between the robot and people. The idea of tuning and making sure that the robot behaves similarly to its estimates through testing stood out in this activity because I was observing how much the robot was off its target before tuning it and how different the estimates were from the actual path of the robot.
 
 ## Mission explanations
 
