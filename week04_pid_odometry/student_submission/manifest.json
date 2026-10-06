@@ -1,0 +1,51 @@
+{
+  "schema_version": 2,
+  "complete": true,
+  "files": [
+    {
+      "path": "submission.json",
+      "size_bytes": 24744,
+      "crc32": "b66d38e2"
+    },
+    {
+      "path": "mission_1/activity_gifs/latest_arm_tuning.gif",
+      "size_bytes": 456131,
+      "crc32": "234746a4"
+    },
+    {
+      "path": "mission_2/odometry_test_summary.csv",
+      "size_bytes": 146,
+      "crc32": "b345f91a"
+    },
+    {
+      "path": "mission_2/activity_gifs/latest_odometry_test.gif",
+      "size_bytes": 609702,
+      "crc32": "8509e43c"
+    },
+    {
+      "path": "mission_3/drawn_route.csv",
+      "size_bytes": 115,
+      "crc32": "b1e8a7b7"
+    },
+    {
+      "path": "mission_3/waypoint_nav_run.csv",
+      "size_bytes": 16094,
+      "crc32": "ef702a3f"
+    },
+    {
+      "path": "mission_3/activity_gifs/latest_drive.gif",
+      "size_bytes": 502784,
+      "crc32": "bcdb4dab"
+    },
+    {
+      "path": "explanation.md",
+      "size_bytes": 9136,
+      "crc32": "68404ea8"
+    },
+    {
+      "path": "final_reflection.md",
+      "size_bytes": 1336,
+      "crc32": "df72803a"
+    }
+  ]
+}

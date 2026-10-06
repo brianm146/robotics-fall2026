@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "created_at": "2026-10-01T13:22:16",
+  "created_at": "2026-10-05T23:19:44",
   "mission_id": "mission_1",
   "student": {
     "name": "Brian Mai",
@@ -9,16 +9,16 @@
   },
   "explanations": {
     "prediction": "With too little Kp, I expect the arm to move too slowly to reach the target. With too little Kd, I expect the arm to move too quickly without slowing down fast enough when trying to reach the target.",
-    "tuning_analysis": "I predicted that a very small Kp would cause the arm to move too slowly towards the target and that a small Kd would cause the arm to move to quickly towards the target which might overshoot it. I changed the Kd, Ki, and Kd terms of the arm, increasing all of them, especially the Ki term so that the arm close in on the gap making it closer to the target. The hold phase showed the improvement with the arm stopping and holding nearly on top of the exact target. Gravity compensation helped hold the elbow more smoothly near the target when it was oscillating far off from the target before the gravity compensation for one of the poses."
+    "tuning_analysis": "I predicted that a very small Kp would cause the arm to move too slowly towards the target and that a small Kd would cause the arm to move to quickly towards the target which might overshoot it and that was correct. I changed the Kd, Ki, and Kd terms of the arm, increasing all of them, especially the Ki term so that the arm close in on the gap making it closer to the target. The hold phase showed the improvement with the arm stopping and holding nearly on top of the exact target. Gravity compensation helped hold the elbow more smoothly near the target when it was oscillating far off from the target before the gravity compensation for one of the poses."
   },
   "params": {
     "activity": "two_link_arm_pid_tuning",
-    "kp1": 14,
-    "ki1": 0.3,
-    "kd1": 4.5,
-    "kp2": 14,
-    "ki2": 0.3,
-    "kd2": 4.5,
+    "kp1": 8.7,
+    "ki1": 1.3,
+    "kd1": 2.7,
+    "kp2": 8.7,
+    "ki2": 1.9,
+    "kd2": 2.7,
     "gravityCompensation": false
   },
   "metrics": {
@@ -27,7 +27,7 @@
     "posesRequired": 3
   },
   "checkin": {
-    "note": "I predicted that a very small Kp would cause the arm to move too slowly towards the target and that a small Kd would cause the arm to move to quickly towards the target which might overshoot it. I changed the Kd, Ki, and Kd terms of the arm, increasing all of them, especially the Ki term so that the arm close in on the gap making it closer to the target. The hold phase showed the improvement with the arm stopping and holding nearly on top of the exact target. Gravity compensation helped hold the elbow more smoothly near the target when it was oscillating far off from the target before the gravity compensation for one of the poses.",
+    "note": "I predicted that a very small Kp would cause the arm to move too slowly towards the target and that a small Kd would cause the arm to move to quickly towards the target which might overshoot it and that was correct. I changed the Kd, Ki, and Kd terms of the arm, increasing all of them, especially the Ki term so that the arm close in on the gap making it closer to the target. The hold phase showed the improvement with the arm stopping and holding nearly on top of the exact target. Gravity compensation helped hold the elbow more smoothly near the target when it was oscillating far off from the target before the gravity compensation for one of the poses.",
     "choice": "",
     "complete": true
   },

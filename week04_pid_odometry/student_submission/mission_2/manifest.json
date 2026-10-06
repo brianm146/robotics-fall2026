@@ -4,18 +4,18 @@
   "files": [
     {
       "path": "submission.json",
-      "size_bytes": 1837,
-      "crc32": "60b916db"
+      "size_bytes": 1834,
+      "crc32": "b3280ddd"
     },
     {
       "path": "odometry_test_summary.csv",
-      "size_bytes": 147,
-      "crc32": "e1f73a4b"
+      "size_bytes": 146,
+      "crc32": "b345f91a"
     },
     {
       "path": "activity_gifs/latest_odometry_test.gif",
-      "size_bytes": 615368,
-      "crc32": "5b3a679d"
+      "size_bytes": 609702,
+      "crc32": "8509e43c"
     },
     {
       "path": "explanation.md",

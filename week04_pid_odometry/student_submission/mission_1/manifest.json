@@ -4,18 +4,18 @@
   "files": [
     {
       "path": "submission.json",
-      "size_bytes": 2177,
-      "crc32": "ccc128b3"
+      "size_bytes": 2221,
+      "crc32": "ec0d5767"
     },
     {
       "path": "activity_gifs/latest_arm_tuning.gif",
-      "size_bytes": 562357,
-      "crc32": "e0e05962"
+      "size_bytes": 456131,
+      "crc32": "234746a4"
     },
     {
       "path": "explanation.md",
-      "size_bytes": 950,
-      "crc32": "9956c55b"
+      "size_bytes": 971,
+      "crc32": "bfc1b329"
     }
   ]
 }
