@@ -1,0 +1,73 @@
+{
+  "checked_evidence_ids": {
+    "mission_1": "c4023ba903bc9a67"
+  },
+  "completed_missions": [
+    "mission_1"
+  ],
+  "content_version": 2,
+  "identity_locked": true,
+  "lab_id": "week05_sensors_uncertainty",
+  "legacy_evidence": {},
+  "mission_2_attempts": [],
+  "mission_2_controls": {
+    "alpha": 0.35,
+    "method": "Raw/hold last",
+    "weight_a": 0.25,
+    "window": 5
+  },
+  "mission_3_attempts": {},
+  "mission_3_controls": {},
+  "mission_3_results": {},
+  "prediction_locks": {
+    "mission_1": {
+      "settings": {
+        "seed": 3422602720
+      },
+      "text": "For biased readings, the variance would stay the same, but the mean and bias would change because the spread of the readings would stay the same, but the actual mean distance would be shifted from the actual true distance. For noisy readings, the bias and the mean would stay the same since the readings are still centered around the true distance but the variance would change since the readings would be more spread out."
+    }
+  },
+  "responses": {
+    "concepts.observation": "When I increased noise, the readings are all more scattered, with various distance readings plotted rather than having all the readings centered around a specific distance. However, when I increased bias, the readings weren't scattered and remained the same centered around a specific value. But, this centered value was a specific shift away from the actual true distance.",
+    "mission_1.bias": "0.239",
+    "mission_1.bias_vs_variance": "My prediction was correct since for this biased reading, the variance stayed around the same as a true reading, with the variance being very small at 0.014 and the mean differed from the true mean distance with a large bias of 0.239. Bias and variance describe different failures since bias describes how much the readings are shifted from the actual true mean distance while the variance describes how spread out the readings are from the actual mean distance.",
+    "mission_1.dropouts": "3",
+    "mission_1.mean": "2.239",
+    "mission_1.median": "2.22",
+    "mission_1.more_samples": "More samples would not remove this sensor's main problem because all the readings in the distribution charts that are made are all shifted a certain distance from the true distance so the sample mean distance would remain around the same at 2.239 m since there is a bias in the readings of 0.239 m.",
+    "mission_1.outliers": "6",
+    "mission_1.prediction": "For biased readings, the variance would stay the same, but the mean and bias would change because the spread of the readings would stay the same, but the actual mean distance would be shifted from the actual true distance. For noisy readings, the bias and the mean would stay the same since the readings are still centered around the true distance but the variance would change since the readings would be more spread out.",
+    "mission_1.prediction_draft": "For biased readings, the variance would stay the same, but the mean and bias would change because the spread of the readings would stay the same, but the actual mean distance would be shifted from the actual true distance. For noisy readings, the bias and the mean would stay the same since the readings are still centered around the true distance but the variance would change since the readings would be more spread out.",
+    "mission_1.profile": "biased",
+    "mission_1.robot_consequence": "One robot decision that this imperfection could change would be the forward movement of the robot even when it detects a person in front of it. Since the bias causes the mean distance to overshoot at 2.239 m instead of the true target distance of 2 m, the robot risks hitting a person that is in front of it which can be dangerous.",
+    "mission_1.variance": "0.014",
+    "mission_2.comparison": "",
+    "mission_2.fusion_choice": "",
+    "mission_2.manual_average": "4.167",
+    "mission_2.manual_fusion": "",
+    "mission_2.manual_median": "8.0",
+    "mission_2.prediction_draft": "",
+    "mission_2.responsiveness": ""
+  },
+  "reviewed_walkthroughs": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "schema_version": 2,
+  "stage": "mission_2",
+  "student": {
+    "course_id": "24594274",
+    "email": "BRIAN.MAI74@login.cuny.edu",
+    "name": "Brian Mai"
+  },
+  "updated_at": "2026-10-07T21:46:58.593010+00:00",
+  "visited_stages": [
+    "intro",
+    "concepts",
+    "mission_1",
+    "mission_2"
+  ],
+  "walkthrough_index": 3
+}

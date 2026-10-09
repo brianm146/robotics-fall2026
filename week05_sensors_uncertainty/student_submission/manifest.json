@@ -1,0 +1,37 @@
+{
+  "files": {
+    "autosave/responses.json": "eacf009d4975a52c644429b2d4807220953fa7de1c73657e6fa0b6b5a56275bb",
+    "autosave/responses.md": "16634d29f7972a753e14ffd56af654cfa5cceb55060087d12fd287a034212df4",
+    "autosave/responses.recovery.0fd93144e31c4af4ae0ac4c4d421b4fd.json": "73b4d667f6f71a6b7b28db85ebadfb8933a6408277021b1f0cccc4618acbbc68",
+    "autosave/responses.recovery.7f33a6bfaa094075a4af9bbde72e6aec.json": "7923b7eefc8d9d7e6f2642af9e298b099e3bd7f101c04360b2a972b51e555750",
+    "autosave/responses.recovery.a2d72a9d417a43639c3b0761f9078eee.json": "b2fd91c0e788f5a8651921adaa1533c4976477608deaa70c3fac10026f1b6c5b",
+    "final_reflection.md": "7cf696d2e1a892768cc8d0fd593821187500a978edba15f6d8541948f34fb4b9",
+    "final_synthesis.md": "44f89a901b6af6785ac9db0b3acdb57f88b28685f6a14710be3a9d1d2f496672",
+    "mission_1/evidence.png": "b1197cae585090f4039d8dc1d2a38d22fc7ebf29b70c66e145aa5bcb60ed4596",
+    "mission_1/explanation.md": "113b57597d24bb0a978c463444f648c8ef24981d5939bc2f197c235ed7bf667c",
+    "mission_1/measurements.csv": "6907b9b3d6e9d1ddcf4c36463d4f9b0b431ca32d15e274bd6fb38e0e608415e8",
+    "mission_1/submission.json": "080b1a6cbec52db469dc2ec68ef916de1a67328ed38d256bd574b6e838c041df",
+    "mission_2/evidence.png": "622dc0c9a5f26eec1402b0741b8c289b6c9180e69432644a9f235d28094e1450",
+    "mission_2/explanation.md": "0957be9aef0323c66e11c240832609ccdba1eb1f21b8bc801a1a217b3ce56a90",
+    "mission_2/measurements.csv": "1d91fea3b40361014830c1c6b57c7dc2c81e5ae2ea83d24c454819633512ef44",
+    "mission_2/submission.json": "a04915bd2fc54cf0bfca50c56c51dbbb6b1a895b28ab19330a1fe738c10ba546",
+    "mission_3/explanation.md": "add89e0ea3443605a6d2ce320f90cf8ae59474027138b3a24cafaba2dc42b6fe",
+    "mission_3/measurements.csv": "1a32670a7d9e93cd78e540f5d84771c38c31b4b32c81d1d4fed1eb3aea0597c5",
+    "mission_3/submission.json": "73d81a3890605ca8f138300d67c92149ddbdf1c35abffdd8e61e46f5d4a3daca",
+    "student.json": "b6b6ca49925ed594abc36194956591b0da3693c2e016318842ea7ad76b1b22fa"
+  },
+  "generated_at": "2026-10-09T05:16:59.667767+00:00",
+  "lab_id": "week05_sensors_uncertainty",
+  "mission_signatures": {
+    "mission_1": "c4023ba903bc9a67",
+    "mission_2": "81f5f1ce70a1f7f2",
+    "mission_3": "1a77638fbf519581"
+  },
+  "response_signature": "37ee92acd31ec37f",
+  "schema_version": 2,
+  "student": {
+    "course_id": "24594274",
+    "email": "BRIAN.MAI74@login.cuny.edu",
+    "name": "Brian Mai"
+  }
+}
