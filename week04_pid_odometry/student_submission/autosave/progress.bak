@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "stage": "export",
+  "stage": "lab",
   "mission_progress": [
     "mission_1",
     "mission_2",
@@ -2617,5 +2617,5 @@
       ]
     ]
   },
-  "saved_at": "2026-10-05T23:32:57"
+  "saved_at": "2026-10-08T11:07:23"
 }

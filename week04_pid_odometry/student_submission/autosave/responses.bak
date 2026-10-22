@@ -1,6 +1,6 @@
 {
   "schema_version": 2,
-  "saved_at": "2026-10-05T23:32:57",
+  "saved_at": "2026-10-08T11:07:23",
   "identity": {
     "name": "Brian Mai",
     "student_id": "BRIAN.MAI74@login.cuny.edu",
@@ -14,7 +14,7 @@
     "background_compare": "The engineer chooses the gains Kp, Ki, and Kd, which determines how the controller reacts to the error when trying to move from its current location to  its target location. This makes PID a feedback controller because PID measures the current error and then makes a move depending on the error relative to the target position, correcting how much it moves based on changes in the error.",
     "background_social": "For a heater, too aggressive means the temperature is being increased too quickly in the space the heater is in, making the space too hot, and too cautious means that the temperature is being increased too slowly, making the space very cold for a long time until the heater is finally appropriately tuned.",
     "pid_playground_terms": "When I dragged the target, the P term reacted first because it was reacting immediately to the error changing. The I term eliminated the final gap by accounting for the accumulated error built up over time.",
-    "odom_background_wheels": "It turns left because dR - dL is positive so d\u03b8 is positive.",
+    "odom_background_wheels": "None",
     "m1_prediction": "With too little Kp, I expect the arm to move too slowly to reach the target. With too little Kd, I expect the arm to move too quickly without slowing down fast enough when trying to reach the target.",
     "m1_arm_tuning": "I predicted that a very small Kp would cause the arm to move too slowly towards the target and that a small Kd would cause the arm to move to quickly towards the target which might overshoot it and that was correct. I changed the Kd, Ki, and Kd terms of the arm, increasing all of them, especially the Ki term so that the arm close in on the gap making it closer to the target. The hold phase showed the improvement with the arm stopping and holding nearly on top of the exact target. Gravity compensation helped hold the elbow more smoothly near the target when it was oscillating far off from the target before the gravity compensation for one of the poses.",
     "m2_prediction": "The estimated forward distance will be incorrect overshooting the actual forward distance that the robot traveled while the sideways distance will be incorrect undershooting the actual sideways distance that the robot traveled.",

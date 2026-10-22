@@ -36,7 +36,7 @@ When I dragged the target, the P term reacted first because it was reacting imme
 
 ### odom_background_wheels
 
-It turns left because dR - dL is positive so dθ is positive.
+None
 
 ### m1_prediction
 
