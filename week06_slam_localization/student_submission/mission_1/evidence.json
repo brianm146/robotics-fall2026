@@ -1,0 +1,27 @@
+{
+  "analysis": {
+    "captured_at": "2026-10-22T17:45:45.679536+00:00",
+    "duration_minutes": 12.0,
+    "map_image": "map.pgm",
+    "map_yaml": "map.yaml",
+    "metrics": {
+      "border_contact_fraction": 0.3866799204771372,
+      "free_fraction": 0.47296684796684796,
+      "height": 208,
+      "known_fraction": 0.5133708883708884,
+      "largest_component_cells": 482,
+      "map_area_m2": 154.44000000000003,
+      "occupied_components": 97,
+      "occupied_fraction": 0.04040404040404041,
+      "resolution": 0.05,
+      "speckle_fraction": 0.03445512820512821,
+      "unknown_fraction": 0.48662911162911165,
+      "width": 297
+    },
+    "quality_score": 72.7,
+    "schema_version": 1,
+    "strategy": "rightside_then_leftside",
+    "world_id": "turtlebot3_house"
+  },
+  "state_signature": "074f7b6ce4c848e8"
+}

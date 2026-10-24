@@ -1,0 +1,51 @@
+{
+  "state_signature": "523d987fa98bbd82",
+  "strategy_1": {
+    "captured_at": "2026-10-22T17:45:45.679536+00:00",
+    "duration_minutes": 12.0,
+    "map_image": "map.pgm",
+    "map_yaml": "map.yaml",
+    "metrics": {
+      "border_contact_fraction": 0.3866799204771372,
+      "free_fraction": 0.47296684796684796,
+      "height": 208,
+      "known_fraction": 0.5133708883708884,
+      "largest_component_cells": 482,
+      "map_area_m2": 154.44000000000003,
+      "occupied_components": 97,
+      "occupied_fraction": 0.04040404040404041,
+      "resolution": 0.05,
+      "speckle_fraction": 0.03445512820512821,
+      "unknown_fraction": 0.48662911162911165,
+      "width": 297
+    },
+    "quality_score": 72.7,
+    "schema_version": 1,
+    "strategy": "rightside_then_leftside",
+    "world_id": "turtlebot3_house"
+  },
+  "strategy_2": {
+    "captured_at": "2026-10-23T22:28:44.606223+00:00",
+    "duration_minutes": 13.0,
+    "map_image": "map.pgm",
+    "map_yaml": "map.yaml",
+    "metrics": {
+      "border_contact_fraction": 0.28765690376569036,
+      "free_fraction": 0.5279401119370045,
+      "height": 209,
+      "known_fraction": 0.5887992372746694,
+      "largest_component_cells": 2231,
+      "map_area_m2": 141.59750000000003,
+      "occupied_components": 114,
+      "occupied_fraction": 0.06085912533766486,
+      "resolution": 0.05,
+      "speckle_fraction": 0.03191180736872643,
+      "unknown_fraction": 0.4112007627253306,
+      "width": 271
+    },
+    "quality_score": 79.7,
+    "schema_version": 1,
+    "strategy": "rightside_then_leftside_explore_more_around_tables",
+    "world_id": "turtlebot3_house"
+  }
+}

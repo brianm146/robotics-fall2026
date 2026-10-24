@@ -1,0 +1,35 @@
+{
+  "files": {
+    "autosave/responses.json": "efd8a09e2822e5d4b7fd438ef47853ca755fe7ca9084c803be6be7542c11d238",
+    "autosave/responses.md": "c0a76ce24425e1dcf848ab9824d7cf6b6dbfcfd811ade2efe07ed0e557615d93",
+    "final_reflection.md": "fa4dbe358347c5f5745bf82d4ed41831fe2abd38ec7c4ec6c2a67276235d28a8",
+    "final_synthesis.md": "bf761be0396c9d53bc0d67ce04225b929ba2a90f3bede2aad032a464f5fcd76a",
+    "mission_1/analysis.json": "96d72cafb2f492cad0a1c86f6f57927b6ff9563c94207e622552af4fc71d3db7",
+    "mission_1/evidence.json": "a46bade02a38400290b78e14c517e94da541b4e2f3f9c7dec365d03cc4cf7759",
+    "mission_1/explanation.md": "8e27b16b0a0e3c293f1ac99a9c6014e9bbe0e39f2c65af08f067c5518b633c55",
+    "mission_1/map.pgm": "53759683abf6b2b99682b0c51304dd8e31ce29f7506e99a9f6a8cd50d941f1e5",
+    "mission_1/map.yaml": "30421a61f3699f75cf4314fee906eae35404077337006e8afdb6d07bc01599cf",
+    "mission_1/rviz_screenshot.png": "e215f115c901f99d2dabfc91ac76e4a8f9921d882a15700497c3abd7d0050931",
+    "mission_1/submission.json": "df70e3675d17493842f2298fa672a823ac661972c23ff2f8089f2810f624ef23",
+    "mission_2/analysis.json": "77989de266f2929abcd179801396d3069a64d6a7e1f8e6faef33623da78f1e4c",
+    "mission_2/evidence.json": "ad1f0a2c8f77d4bf8b3a3e24310ae0ad6ae0e4a8412e98b811445251fa013175",
+    "mission_2/explanation.md": "f555e6cf49fca6cb44c07fcd12510b89d5be3dc1e6f4e2a74c824f3f6ff621aa",
+    "mission_2/map.pgm": "d46a9d0a474a006d7923e5e972c46e96bb13e003da635b3f5513c973114b4dde",
+    "mission_2/map.yaml": "5e773d35f9c53dbaaf5c7feb1564388ac13f6ea0ad92b2365f4f7b9765f33a7e",
+    "mission_2/rviz_screenshot.png": "bcb47ff6731e350e1272336856aa8a18dbff8507229352bed6682c35bb122be6",
+    "mission_2/submission.json": "7a28def838e52745b64e4a97cab2f3040b79ec4b579fd3f4694624ddbaad10e1",
+    "student.json": "5e1f2d417ee5686e05965dd86e0de36a6d6d0cafda295db16c4ef40dbb9e6769"
+  },
+  "generated_at": "2026-10-24T02:18:02.818650+00:00",
+  "lab_id": "week06_slam_localization",
+  "mission_signatures": {
+    "mission_1": "074f7b6ce4c848e8",
+    "mission_2": "523d987fa98bbd82"
+  },
+  "response_signature": "94f5d30cfbaf9a78",
+  "schema_version": 2,
+  "student": {
+    "email": "BRIAN.MAI74@login.cuny.edu",
+    "name": "Brian Mai"
+  }
+}
