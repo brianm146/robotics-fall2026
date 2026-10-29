@@ -1,0 +1,102 @@
+{
+  "checked_evidence_ids": {},
+  "completed_missions": [],
+  "evidence": {},
+  "history": [],
+  "lab_id": "week08_vision_perception",
+  "responses": {},
+  "schema_version": 2,
+  "settings": {
+    "playground_progress": {
+      "finished": false,
+      "step": 8,
+      "version": 4
+    },
+    "preflight_report": {
+      "captured_at": "2026-10-28T22:28:43.600721+00:00",
+      "checks": [
+        {
+          "check": "Python version and interpreter",
+          "detail": "3.13.1 at /Users/brian/Documents/robotics/robotics-fall2026/week08_vision_perception/.venv/bin/python",
+          "passed": true,
+          "required": true
+        },
+        {
+          "check": "Python package: Streamlit",
+          "detail": "1.66.1",
+          "passed": true,
+          "required": true
+        },
+        {
+          "check": "Python package: NumPy",
+          "detail": "2.5.4",
+          "passed": true,
+          "required": true
+        },
+        {
+          "check": "Python package: OpenCV",
+          "detail": "4.14.0",
+          "passed": true,
+          "required": true
+        },
+        {
+          "check": "Python package: pandas",
+          "detail": "3.1.0",
+          "passed": true,
+          "required": true
+        },
+        {
+          "check": "Python package: Pillow",
+          "detail": "13.0.0",
+          "passed": true,
+          "required": true
+        },
+        {
+          "check": "Practice photograph",
+          "detail": "Practice photograph loaded: 480 by 320 pixels",
+          "passed": true,
+          "required": true
+        },
+        {
+          "check": "Frozen model and real inference",
+          "detail": "Checksum verified and inference ran: 3 cup candidates",
+          "passed": true,
+          "required": true
+        },
+        {
+          "check": "Classification and segmentation models",
+          "detail": "Frozen classification and segmentation ran: notebook, mask (320, 480)",
+          "passed": true,
+          "required": true
+        },
+        {
+          "check": "Shared images and prepared model outputs",
+          "detail": "All 31 scenes checked. Model outputs cached for later activities",
+          "passed": true,
+          "required": true
+        },
+        {
+          "check": "Submission folder is writable",
+          "detail": "/Users/brian/Documents/robotics/robotics-fall2026/week08_vision_perception/student_submission",
+          "passed": true,
+          "required": true
+        },
+        {
+          "check": "ROS software environment",
+          "detail": "Not verified by this local guide. Open the guide in the course ROS 2 environment and rerun preflight before Mission 2. Image activities can proceed here.",
+          "passed": false,
+          "required": false
+        }
+      ],
+      "ready": true,
+      "robot_software_ready": false,
+      "run_id": "d5e73be5b862485383b77c109fc2590a"
+    }
+  },
+  "stage": "concepts",
+  "student": {
+    "email": "BRIAN.MAI74@login.cuny.edu",
+    "name": "Brian Mai"
+  },
+  "updated_at": "2026-10-28T22:49:58.432843+00:00"
+}
