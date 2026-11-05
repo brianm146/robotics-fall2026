@@ -1,0 +1,14 @@
+{
+  "run_id": "constrained_dfs_0_baseline_703adbffc5",
+  "map": "constrained",
+  "planner": "dfs",
+  "sample": 326,
+  "point": {
+    "t": 35.3,
+    "x": -4.3010321552479125,
+    "y": 3.209021767607484,
+    "speed_mps": 3.064215547965432e-12
+  },
+  "tracking_error_m": 0.07396784475208751,
+  "feature": "Stopped or failed approach"
+}
