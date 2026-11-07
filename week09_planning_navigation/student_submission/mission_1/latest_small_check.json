@@ -1,7 +1,7 @@
 {
   "status": "succeeded",
   "error": "",
-  "planning_s": 1.2749999768857379e-05,
+  "planning_s": 1.5874999917286914e-05,
   "expanded": 6,
   "peak_frontier": 3,
   "path": [
@@ -38,7 +38,7 @@
   "optimal_length_m": 1.5,
   "optimality_ratio": 1.0,
   "case": "Narrow passage",
-  "planner": "dfs",
+  "planner": "astar",
   "source_sha256": "0cab47fc86be337978ed0f811cff936a907af519f4911b06b29bb9d91b558a34",
   "expected_status": "succeeded",
   "check_passed": true
