@@ -1,0 +1,14 @@
+{
+  "job_id": "61c9aa994e354c20a08bfa207b62184b",
+  "kind": "language",
+  "case": "custom",
+  "prompt": "Go to the desk, inspect the book, and report what you observe.",
+  "phase": "custom",
+  "parent_id": null,
+  "requested_at": "2026-11-11T23:37:27.054184+00:00",
+  "comparison_ids": [
+    "8cfd2cf4c5c24db0b2849c5fed10fe2f",
+    "932a03147cbb4467a308f653d7022ec9",
+    "61360c221c29455bb61a257d82ad1beb"
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "job_id": "a739b21f120a4c07a41d5944f9f7ec25",
+  "kind": "language",
+  "case": "custom",
+  "prompt": "Go to the blue target crate. Reply with exactly the word RIGHT until column 11. Reply with exactly DOWN until the yellow toolbox.",
+  "phase": "custom",
+  "parent_id": null,
+  "requested_at": "2026-11-12T09:09:30.427938+00:00",
+  "comparison_ids": [
+    "7beb4bbfe68d48fdaeb7515b9df1245b",
+    "1c240b72435a4cda918122fcf4e6baa5",
+    "6af2c47a0b0e4a0491438f8be7b851cb"
+  ],
+  "task": "robot",
+  "robot_state": {
+    "position": [
+      1,
+      7
+    ],
+    "step": 0,
+    "history": [],
+    "finished": false,
+    "goal_reached": false,
+    "first_goal_step": null,
+    "last_feedback": "No previous action.",
+    "last_decision": null
+  },
+  "simulator_contract": "8da30a943bd97ee39237aa05e8e6800fecdecbef3ce692d7d4e48f851679060f"
+}

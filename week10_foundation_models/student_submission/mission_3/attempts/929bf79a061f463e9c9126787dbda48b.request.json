@@ -1,0 +1,29 @@
+{
+  "job_id": "929bf79a061f463e9c9126787dbda48b",
+  "kind": "language",
+  "case": "custom",
+  "prompt": "Reach the blue target crate at (11,1). If there are no previous actions, move UP. If the previous action is UP, move UP until row 1. If the previous action is DOWN, move DOWN until row 7. If the previous action is RIGHT, move RIGHT until the neighboring cell for RIGHT is a wall. If the neighboring cell for UP is a wall, move RIGHT. If the neighboring cell for RIGHT is a wall and the neighboring cell for UP is a wall, move DOWN. If the neighboring cell for DOWN is a wall , move RIGHT. If the neighboring cell for DOWN is a wall, and the neighboring wall for RIGHT is a wall, move UP.",
+  "phase": "custom",
+  "parent_id": null,
+  "requested_at": "2026-11-12T07:30:14.969749+00:00",
+  "comparison_ids": [
+    "7beb4bbfe68d48fdaeb7515b9df1245b",
+    "1c240b72435a4cda918122fcf4e6baa5",
+    "6af2c47a0b0e4a0491438f8be7b851cb"
+  ],
+  "task": "robot",
+  "robot_state": {
+    "position": [
+      1,
+      7
+    ],
+    "step": 0,
+    "history": [],
+    "finished": false,
+    "goal_reached": false,
+    "first_goal_step": null,
+    "last_feedback": "No previous action.",
+    "last_decision": null
+  },
+  "simulator_contract": "8da30a943bd97ee39237aa05e8e6800fecdecbef3ce692d7d4e48f851679060f"
+}
