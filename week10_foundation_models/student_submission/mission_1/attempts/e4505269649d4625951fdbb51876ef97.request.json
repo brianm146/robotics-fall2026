@@ -1,0 +1,14 @@
+{
+  "job_id": "e4505269649d4625951fdbb51876ef97",
+  "kind": "language",
+  "case": "custom",
+  "prompt": "Start from the base, go to the shelf, inspect the cup, and report what you observe about the cup.",
+  "phase": "custom",
+  "parent_id": null,
+  "requested_at": "2026-11-12T16:24:51.059279+00:00",
+  "comparison_ids": [
+    "8cfd2cf4c5c24db0b2849c5fed10fe2f",
+    "932a03147cbb4467a308f653d7022ec9",
+    "61360c221c29455bb61a257d82ad1beb"
+  ]
+}

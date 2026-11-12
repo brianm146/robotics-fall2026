@@ -1,7 +1,7 @@
 {
-  "stage": "mission_3",
+  "stage": "mission_2",
   "responses": {
-    "m1_analysis": "My revised request did improve the response. One specific difference is that for the \"clear request\", the robot starts at the shelf, moves towards the cup, checks the cup, and reports that it is empty when the robot is supposed to start at base according to the robot capability card, but my revised request improves the response by having the robot start at the base before it then moves to the desk, inspects the book, and reports that it is a book. My revised request improves the response in comparison to the \"ambiguous request\" by responding that the robot starts at the base, moves to the desk, inspects the book, and reports that it is a book for my revised request while the response for the \"ambiguous request\" is that the robot can inspect the object, which isn't specific, by moving the camera to that specific location and by using its wheels to navigate to that object because the request isn't specific enough on the intended object and destination. My revised request also improves the response in comparison to the \"beyond the robot's capabilities\" request by responding that the robot starts at the base, moves to the desk, inspects the book, and reports that it is a book for my revised request while the response for the \"beyond the robot's capabilities\" request is that the robot can navigate to the shelf, inspect the cup, and then stop if it finds the cup empty because the request of picking up the cup isn't possible for the robot since it has no arm or gripper. For my revised request, the proposed actions fit the robot's capabilities because the robot is able to start at the base and move to the desk with its wheels, can inspect a known object, which is the book, and can report its observations that it is a book according to the robot capability card.",
+    "m1_analysis": "My revised request did improve the response. One specific difference is that for the \"clear request\", the robot starts at the shelf, moves towards the cup, checks the cup, and reports that it is empty when the robot is supposed to start at base according to the robot capability card, but my revised request improves the response by having the robot start at the base before it then moves to the shelf, inspects the cup, and reports that the cup is empty. My revised request improves the response in comparison to the \"ambiguous request\" by responding that the robot starts at the base, moves to the shelf, inspects the cup, and reports that it is empty for my revised request while the response for the \"ambiguous request\" is that the robot can inspect the object, which isn't specific, by moving the camera to that specific location and by using its wheels to navigate to that object because the request isn't specific enough on the intended object and destination. My revised request also improves the response in comparison to the \"beyond the robot's capabilities\" request by responding that the robot starts at the base, moves to the shelf, inspects the cup, and reports that the cup is empty for my revised request while the response for the \"beyond the robot's capabilities\" request is that the robot can navigate to the shelf, inspect the cup, and then can stop if it finds the cup empty because the request of picking up the cup isn't possible for the robot since it has no arm or gripper so the robot can only stop. For my revised request, the proposed actions did fit the robot's capabilities because the robot is able to start at the base and move to the shelf with its wheels, can inspect a known object, which is the cup, and can report its observations that the cup is empty according to the robot capability card.",
     "m2_analysis": "The task that I chose was the \"Decide\" task. My revised request did produce a better answer for that goal than the original request for the same task. One specific difference is that the suggested tool to accomplish the goal from my revised request was a circle cutter, which is a lot closer and more similar to the visible evidence of the metal drawing compass in the photograph, than the suggested tool for the original request which was a measuring tape. However, even though there was an improvement on deciding the tool because my revised request actually supplied the specific task of preparing to mark a circle on a flat wooden workpiece, the suggested tool decided from the revised request is still technically incorrect since the correct tool to decide would be the metal drawing compass and not the circle cutter or measuring tape, but this would be more of an \"Identify\" task issue.",
     "m3_analysis": ""
   },
@@ -35,16 +35,22 @@
     "control_validate_age_unreachable": 0.1,
     "control_validate_age_poster": 0.1,
     "control_validate_conf_poster": 0.9,
-    "control_live_language_active": "4594a1a7965f4d05a2c844bc19645374",
+    "control_live_language_active": "9b8be23cf28c4535b7fd5f5925aaaabf",
     "control_live_language_runs": [
       "8cfd2cf4c5c24db0b2849c5fed10fe2f",
       "932a03147cbb4467a308f653d7022ec9",
       "61360c221c29455bb61a257d82ad1beb",
       "61c9aa994e354c20a08bfa207b62184b",
       "f1d9c88182ac4a9fa47ac9022956d7e4",
-      "4594a1a7965f4d05a2c844bc19645374"
+      "4594a1a7965f4d05a2c844bc19645374",
+      "1d1b016e225c49b4b82b1945cc6ba76c",
+      "4cdc077c54c54457949f7ff87308e05a",
+      "717f893de89e444cb71989ca770e3283",
+      "e4505269649d4625951fdbb51876ef97",
+      "1f07c3436ec44d20987c8f98217de6a9",
+      "9b8be23cf28c4535b7fd5f5925aaaabf"
     ],
-    "control_live_language_custom_prompt": "Start from the base, go to the desk, inspect the book, and report what you observe.",
+    "control_live_language_custom_prompt": "Start from the base, go to the shelf, inspect the cup, and report what you observe.",
     "control_live_vision_runs": [
       "af8d9444135b456092a5169af6380da2",
       "7f7c201520354519bf1098a7c99a71b5",
@@ -53,9 +59,10 @@
       "68819a3082bc4534ad4dd539582a853a",
       "b68cb655085444f9a98bcd6f6130f018",
       "efc00a975c564b509712b2ed6792b63c",
-      "77c25a97c1b64713a2165b84aeadf525"
+      "77c25a97c1b64713a2165b84aeadf525",
+      "d2ce5ffb935b43cd89a9949dccb4ea0b"
     ],
-    "control_live_vision_active": "77c25a97c1b64713a2165b84aeadf525",
+    "control_live_vision_active": "d2ce5ffb935b43cd89a9949dccb4ea0b",
     "control_live_vision_custom_prompt": "The task is \"Decide\" and the goal of the robot is to prepare to mark a circle on a flat wooden workpiece. Which visible tool in this image should the robot pick up to help correctly accomplish its goal? What evidence from the image supports that this tool is the correct choice for this task and what needs to be checked before the robot could use this tool? Separate visible evidence in the image from any assumptions.",
     "control_robot_runs": [
       "7beb4bbfe68d48fdaeb7515b9df1245b",
@@ -154,10 +161,11 @@
       "5f2e2b3d9163467eb40e8da5d8838baf",
       "a739b21f120a4c07a41d5944f9f7ec25",
       "bc6e5e5b1a5f4f4a92111490708a277f",
-      "9d0e0c35bd8242a3997868dde9b3ecd3"
+      "9d0e0c35bd8242a3997868dde9b3ecd3",
+      "0e2cf10a460042648cbf646829457a63"
     ],
-    "control_robot_active": "9d0e0c35bd8242a3997868dde9b3ecd3",
-    "control_robot_custom_prompt": "The first value of the current position is the column. The second value of the current position is the row. Reach the blue target crate at (11,1). Reply with exactly the word RIGHT until column 3. Then, reply with exactly with the word UP until row 1. Then, reply with exactly the word RIGHT until column 7. Then, reply with exactly the word DOWN until row 7. Next, reply with exactly the word RIGHT until column 11. Finally, reply with exactly the word UP until row 1.\n"
+    "control_robot_active": "0e2cf10a460042648cbf646829457a63",
+    "control_robot_custom_prompt": "The first value of the current position is the column. The second value of the current position is the row. Reach the blue target crate at (11,1). Reply with exactly the word RIGHT until column 3. Then, reply with exactly with the word UP until row 1. Then, reply with exactly the word RIGHT until column 7. Then, reply with exactly the word DOWN until row 7. Next, reply with exactly the word RIGHT until column 11. Finally, reply with exactly the word UP until row 1."
   },
   "guided_version": 4,
   "guided_seen": [

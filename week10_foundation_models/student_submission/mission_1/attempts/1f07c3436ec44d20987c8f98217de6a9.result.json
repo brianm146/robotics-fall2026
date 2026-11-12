@@ -1,0 +1,37 @@
+{
+  "status": "complete",
+  "record": {
+    "job_id": "1f07c3436ec44d20987c8f98217de6a9",
+    "kind": "language",
+    "case": "custom",
+    "prompt": "Start from the base, go to the shelf, inspect the cup, and report what your observations.",
+    "phase": "custom",
+    "parent_id": null,
+    "requested_at": "2026-11-12T16:26:08.034221+00:00",
+    "comparison_ids": [
+      "8cfd2cf4c5c24db0b2849c5fed10fe2f",
+      "932a03147cbb4467a308f653d7022ec9",
+      "61360c221c29455bb61a257d82ad1beb"
+    ],
+    "output": "1. Start from the base.\n2. Move to the shelf.\n3. Inspect the cup.\n4. Report what you observed.",
+    "model": "HuggingFaceTB/SmolLM2-360M-Instruct",
+    "model_revision": "a10cc1512eabd3dde888204e902eca88bddb4951",
+    "system_prompt": "You are helping a mobile robot. It starts at base. It can navigate to base, shelf or desk, inspect a known object, report observations, or stop. There is a cup on the shelf and a book on the desk. The robot has a camera and wheels but no arm or gripper. It cannot pick up or carry objects. Suggest a short plan using only these capabilities. If information is missing, ask a specific clarification question. If the task is impossible for this robot, explain why. Use at most four short sentences.",
+    "model_input": "Start from the base, go to the shelf, inspect the cup, and report what your observations.",
+    "image_sha256": null,
+    "image_preprocessing": null,
+    "generated_tokens": 31,
+    "max_new_tokens": 96,
+    "generation_seconds": 6.971,
+    "truncated": false,
+    "decoding": "greedy",
+    "device": "cpu",
+    "live_inference": true,
+    "library_versions": {
+      "torch": "2.8.0+cpu",
+      "transformers": "4.57.1"
+    },
+    "output_constraint": null,
+    "completed_at": "2026-11-12T16:26:15.023469+00:00"
+  }
+}
