@@ -1,0 +1,29 @@
+{
+  "job_id": "1d6bd9544beb43659817f2bd14493940",
+  "kind": "language",
+  "case": "custom",
+  "prompt": "The first value of the current position is the column. The second value of the current position is the row. Reach the blue target crate at (11,1). Reply with exactly the word RIGHT until column 3. Then, reply with exactly with the word UP until row 1. Then, reply with exactly the word RIGHT until column 7. Then, reply with exactly the word DOWN until row 7. Next, reply with exactly the word RIGHT until column 11. Finally, reply with exactly the word UP until row 1.",
+  "phase": "custom",
+  "parent_id": null,
+  "requested_at": "2026-11-12T19:13:49.696498+00:00",
+  "comparison_ids": [
+    "17d44564f5c84adf8588d071926577a5",
+    "3a4bcb24e471456aa57ef174f07dab8b",
+    "94e98637cfc54ac49ecefcaa27bf0dba"
+  ],
+  "task": "robot",
+  "robot_state": {
+    "position": [
+      1,
+      7
+    ],
+    "step": 0,
+    "history": [],
+    "finished": false,
+    "goal_reached": false,
+    "first_goal_step": null,
+    "last_feedback": "No previous action.",
+    "last_decision": null
+  },
+  "simulator_contract": "8da30a943bd97ee39237aa05e8e6800fecdecbef3ce692d7d4e48f851679060f"
+}

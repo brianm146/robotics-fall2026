@@ -1,13 +1,15 @@
 {
-  "stage": "mission_2",
+  "stage": "final_submission",
   "responses": {
     "m1_analysis": "My revised request did improve the response. One specific difference is that for the \"clear request\", the robot starts at the shelf, moves towards the cup, checks the cup, and reports that it is empty when the robot is supposed to start at base according to the robot capability card, but my revised request improves the response by having the robot start at the base before it then moves to the shelf, inspects the cup, and reports that the cup is empty. My revised request improves the response in comparison to the \"ambiguous request\" by responding that the robot starts at the base, moves to the shelf, inspects the cup, and reports that it is empty for my revised request while the response for the \"ambiguous request\" is that the robot can inspect the object, which isn't specific, by moving the camera to that specific location and by using its wheels to navigate to that object because the request isn't specific enough on the intended object and destination. My revised request also improves the response in comparison to the \"beyond the robot's capabilities\" request by responding that the robot starts at the base, moves to the shelf, inspects the cup, and reports that the cup is empty for my revised request while the response for the \"beyond the robot's capabilities\" request is that the robot can navigate to the shelf, inspect the cup, and then can stop if it finds the cup empty because the request of picking up the cup isn't possible for the robot since it has no arm or gripper so the robot can only stop. For my revised request, the proposed actions did fit the robot's capabilities because the robot is able to start at the base and move to the shelf with its wheels, can inspect a known object, which is the cup, and can report its observations that the cup is empty according to the robot capability card.",
     "m2_analysis": "The task that I chose was the \"Decide\" task. My revised request did produce a better answer for that goal than the original request for the same task. One specific difference is that the suggested tool to accomplish the goal from my revised request was a circle cutter, which is a lot closer and more similar to the visible evidence of the metal drawing compass in the photograph, than the suggested tool for the original request which was a measuring tape. However, even though there was an improvement on deciding the tool because my revised request actually supplied the specific task of preparing to mark a circle on a flat wooden workpiece, the suggested tool decided from the revised request is still technically incorrect since the correct tool to decide would be the metal drawing compass and not the circle cutter or measuring tape, but this would be more of an \"Identify\" task issue.",
-    "m3_analysis": ""
+    "m3_analysis": "I am comparing my own prompt with supplied prompt \"3. Describe the detour\". Across the 50 steps, the path from my own prompt was better and went further than the path from the supplied prompt \"3. Describe the detour\" with the final position for my own prompt being [7, 2] and the final position for the supplied prompt \"3. Describe the detour\" being [1,  1]. The goals visits did not differ between my own prompt and the supplied prompt \"3. Describe the detour\" because both prompts did not reach and visit the goal. My own prompt had both less blocked moves and less STOP steps than the supplied prompt \"3. Describe the detour\" with my own prompt having 17 blocked moves and 0 STOP steps while the supplied prompt \"3. Describe the detour\" had 22 blocked moves and 22 STOP steps. One displayed result that explains that my own prompt helped is that the displayed green path for my own prompt is longer and went further to the final position of [7, 2] compared to the shorter path for the supplied prompt \"3. Describe the detour\" which finished at the final position of [1, 1]. However, the limitations that remain are that the robot still does not reach the target goal with my own prompt despite moving further with a longer path, the robot oscillates up and down between [7, 1] and [7, 2], and the robot only travels this far for this specific map when using my own prompt.",
+    "final_synthesis": "I learned that the specific wording of the task in the prompt is very important for turning a model's response into useful robot behavior. In mission 1, the specific wording of my requests affected the results because the ambiguous request led to the response that the robot can inspect the object by moving its camera and can navigate to the object with its wheels which isn't useful without the specific object while my improved request is more specific in starting at base, the cup object, and the shelf destination, leading to a better response of starting from base, going to the shelf, inspecting the cup, and reporting that the cup is empty. In mission 2, the visible evidence affected the results because the description of the task in the prompt with relation to the visible evidence in the photograph resulted in the better response of a circle cutter instead of a measuring tape for the \"decide\" task despite still being incorrect about the visible metal drawing compass in the photograph. In mission 3, the action checks affected the results by blocking the robot from moving up into the wall in row 1, resulting in the robot oscillating up and down between positions [7, 1] and [7, 2] when the robot started trying to move down. One remaining limitation of turning a model's response into useful robot behavior is that even with specific wording, the robot may still fail to complete the task because it doesn't fully understand the full setting from the prompts as seen in the plan in mission 1 which doesn't generate actual robot movement, the failure to decide the exact tool for the specified task in mission 2, and the failure to reach the goal in mission 3 despite specific wording in the route to take.",
+    "final.course_reflection": "This activity made me think that I am still very interested in robotics and other engineering related work. This activity also made me more motivated to do similar kinds of work in the future. The value that I see in connecting technical and computing work with human, ethical, and societal considerations is being able to create systems that assist in tasks that may be challenging and to help the specific needs of people. The thing that stood out to me in this activity is the inaccuracies of the robot even with the provided photograph and detailed description and the provided maze and detailed instructions in both missions 2 and 3 because I thought the robot would perform better than it did with the detailed images and descriptions even if some mistakes still remained."
   },
   "student": {
-    "name": "",
-    "email": ""
+    "name": "Brian Mai",
+    "email": "BRIAN.MAI74@login.cuny.edu"
   },
   "tutorial_step": 5,
   "tutorial_reviewed": 6,
@@ -35,7 +37,7 @@
     "control_validate_age_unreachable": 0.1,
     "control_validate_age_poster": 0.1,
     "control_validate_conf_poster": 0.9,
-    "control_live_language_active": "9b8be23cf28c4535b7fd5f5925aaaabf",
+    "control_live_language_active": "edf83d48b1fc49ca898efeaed0b08f54",
     "control_live_language_runs": [
       "8cfd2cf4c5c24db0b2849c5fed10fe2f",
       "932a03147cbb4467a308f653d7022ec9",
@@ -48,7 +50,11 @@
       "717f893de89e444cb71989ca770e3283",
       "e4505269649d4625951fdbb51876ef97",
       "1f07c3436ec44d20987c8f98217de6a9",
-      "9b8be23cf28c4535b7fd5f5925aaaabf"
+      "9b8be23cf28c4535b7fd5f5925aaaabf",
+      "b06a1845e22b4fa29ac4aa5d90658bdc",
+      "1e808f8f611f4316aa0635b035bde797",
+      "9480e4f99a9743e0b6775582f0ed8b50",
+      "edf83d48b1fc49ca898efeaed0b08f54"
     ],
     "control_live_language_custom_prompt": "Start from the base, go to the shelf, inspect the cup, and report what you observe.",
     "control_live_vision_runs": [
@@ -60,9 +66,13 @@
       "b68cb655085444f9a98bcd6f6130f018",
       "efc00a975c564b509712b2ed6792b63c",
       "77c25a97c1b64713a2165b84aeadf525",
-      "d2ce5ffb935b43cd89a9949dccb4ea0b"
+      "d2ce5ffb935b43cd89a9949dccb4ea0b",
+      "d603de2ee1eb44099e1e16b56243f95c",
+      "15307f4d19f04b17abb5ca66da0bde44",
+      "0b3404a4adbe4004b4660dac52ce8bfa",
+      "94e1353c376a4bc1888da7a4d93bd64d"
     ],
-    "control_live_vision_active": "d2ce5ffb935b43cd89a9949dccb4ea0b",
+    "control_live_vision_active": "94e1353c376a4bc1888da7a4d93bd64d",
     "control_live_vision_custom_prompt": "The task is \"Decide\" and the goal of the robot is to prepare to mark a circle on a flat wooden workpiece. Which visible tool in this image should the robot pick up to help correctly accomplish its goal? What evidence from the image supports that this tool is the correct choice for this task and what needs to be checked before the robot could use this tool? Separate visible evidence in the image from any assumptions.",
     "control_robot_runs": [
       "7beb4bbfe68d48fdaeb7515b9df1245b",
@@ -162,9 +172,20 @@
       "a739b21f120a4c07a41d5944f9f7ec25",
       "bc6e5e5b1a5f4f4a92111490708a277f",
       "9d0e0c35bd8242a3997868dde9b3ecd3",
-      "0e2cf10a460042648cbf646829457a63"
+      "0e2cf10a460042648cbf646829457a63",
+      "17d44564f5c84adf8588d071926577a5",
+      "3a4bcb24e471456aa57ef174f07dab8b",
+      "94e98637cfc54ac49ecefcaa27bf0dba",
+      "6a8e1ff6357846aba2421c48c2b37780",
+      "06a7b617f501479cb4183b10c5cbd880",
+      "9121dc757ee84abbaafba82184624642",
+      "a4a9e75530724c639365cc9067885684",
+      "b09b1472f108475daf91c7d9ab97b366",
+      "1d6bd9544beb43659817f2bd14493940",
+      "8a8ca46dee2a4080a1fd664b9d777514",
+      "bd2626c765bf4f688da5ef09210cb794"
     ],
-    "control_robot_active": "0e2cf10a460042648cbf646829457a63",
+    "control_robot_active": "bd2626c765bf4f688da5ef09210cb794",
     "control_robot_custom_prompt": "The first value of the current position is the column. The second value of the current position is the row. Reach the blue target crate at (11,1). Reply with exactly the word RIGHT until column 3. Then, reply with exactly with the word UP until row 1. Then, reply with exactly the word RIGHT until column 7. Then, reply with exactly the word DOWN until row 7. Next, reply with exactly the word RIGHT until column 11. Finally, reply with exactly the word UP until row 1."
   },
   "guided_version": 4,
@@ -179,7 +200,8 @@
   "response_widgets": [
     "m1_analysis",
     "m2_analysis",
-    "m3_analysis"
+    "m3_analysis",
+    "final_synthesis"
   ],
   "version": 2
 }

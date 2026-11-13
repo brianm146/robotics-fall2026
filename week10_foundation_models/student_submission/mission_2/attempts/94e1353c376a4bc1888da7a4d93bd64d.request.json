@@ -1,0 +1,14 @@
+{
+  "job_id": "94e1353c376a4bc1888da7a4d93bd64d",
+  "kind": "vision",
+  "case": "custom",
+  "prompt": "The task is \"Decide\" and the goal of the robot is to prepare to mark a circle on a flat wooden workpiece. Which visible tool in this image should the robot pick up to help correctly accomplish its goal? What evidence from the image supports that this tool is the correct choice for this task and what needs to be checked before the robot could use this tool? Separate visible evidence in the image from any assumptions.",
+  "phase": "custom",
+  "parent_id": null,
+  "requested_at": "2026-11-13T20:58:33.112068+00:00",
+  "comparison_ids": [
+    "af8d9444135b456092a5169af6380da2",
+    "7f7c201520354519bf1098a7c99a71b5",
+    "afb8dd11655945d3afc05ed3866bfcac"
+  ]
+}
